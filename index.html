@@ -1,280 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8" />
-
-<style id="webmakerstyle">
-/*===tab===*/
-
-.tab {
-  width: 75%;
-  margin: auto;
-  flex-wrap: wrap;
-  display: flex;
-  justify-content: center;
-}
-
-.tabMenu {
-  width: calc(100% / 5);
-  height: 50px;
-  background-color: lightgrey;
-  line-height: 50px;
-  font-size: 15px;
-  text-align: center;
-  display: block;
-  float: left;
-  order: -1;
-}
-
-.tabMenu:nth-child a.selected {
-  background-color: #f29196;
-}
-
-input[name="tabMenu"] {
-  display: none;
-}
-
-input:checked + .tabMenu {
-  background-color: mediumseagreen;
-  color: aliceblue;
-}
-
-.contentMenu {
-  display: none;
-  width: 100%;
-}
-
-input:checked + .tabMenu + .contentMenu {
-  display: block;
-}
-
-.contentMenu .title {
-  line-height: 0px;
-  font-size: 50px;
-  font-family: "Hiragino Sans";
-  font-weight: bold;
-}
-
-/*===Home===*/
-
-.contentMenu .homeBody {
-  font-size: 20px;
-}
-
-/*===twitterButton===*/
-
-.twitterButton {
-  color: white;
-  background-color: #00bfff;
-  width: 20%;
-  height: 20%;
-  font-size: 20px;
-}
-.twitterButton:hover {
-  color: #f0f8ff;
-  background-color: steelblue;
-}
-.twitterButton {
-  border-radius: 100vh;
-}
-
-/*===youtubeButton===*/
-
-.youtubeButton {
-  color: white;
-  background-color: red;
-  width: 20%;
-  height: 20%;
-  font-size: 20px;
-}
-.youtubeButton:hover {
-  color: #f0f8ff;
-  background-color: darkred;
-}
-.youtubeButton {
-  border-radius: 100vh;
-}
-
-/*===Profile===*/
-
-.contentMenu .profileBody {
-  font-size: 20px;
-  overflow-wrap: normal;
-}
-
-/*===Career===*/
-
-.careerBody {
-  font-size: 20px;
-}
-
-.buttonList {
-  display: flex;
-  justify-content: space-around;
-  text-align: center;
-  font-size: 25px;
-}
-
-/*sovault*/
-
-.sovaultButton {
-  border: none;
-  background: transparent;
-}
-
-.sovault {
-  position: relative;
-  top: -33px;
-}
-
-.sovaultButton:hover {
-  filter: brightness(90%);
-}
-
-/*hatsume*/
-
-.hatsumeButton {
-  border: none;
-  background: transparent;
-}
-
-.hatsume {
-  position: relative;
-  top: -33px;
-}
-
-.hatsumeButton:hover {
-  filter: brightness(90%);
-}
-
-/*oimo*/
-
-.oimoButton {
-  border: none;
-  background: transparent;
-}
-
-.oimo {
-  position: relative;
-  top: -33px;
-}
-
-.oimoButton:hover {
-  filter: brightness(90%);
-}
-
-/*nachi*/
-
-.nachiButton {
-  border: none;
-  background: transparent;
-}
-
-.nachi {
-  position: relative;
-  top: -33px;
-  right: 12px;
-}
-
-.nachiButton:hover {
-  filter: brightness(90%);
-}
-
-/*Hapiness*/
-
-.hapinessButton {
-  border: none;
-  background: transparent;
-}
-
-.hapiness {
-  position: relative;
-  top: -33px;
-  right: 10px;
-}
-
-.hapinessButton:hover {
-  filter: brightness(60%);
-}
-
-/*gift*/
-
-.giftButton {
-  border: none;
-  background: transparent;
-}
-
-.gift {
-  position: relative;
-  font-size:20px;
-  top: -25px;
-  right: 10px;
-}
-
-.giftButton:hover {
-  filter: brightness(90%);
-}
-
-/*orb*/
-
-.orbButton {
-  border: none;
-  background: transparent;
-}
-
-.orb {
-  position: relative;
-  top: -33px;
-  right: 10px;
-}
-
-.orb1 {
-  position: relative;
-  top:-70px;
-}
-
-.orbButton:hover {
-  filter: brightness(90%);
-}
-
-/*ibushi*/
-
-.ibushiButton {
-  border: none;
-  background: transparent;
-}
-
-.ibushi {
-  position: relative;
-  top: -33px;
-  right: 10px;
-}
-
-.ibushi1 {
-  position: relative;
-  top:-70px;
-}
-
-.ibushiButton:hover {
-  filter: brightness(90%);
-}
-
-/*===ForActivist===*/
-
-.contentMenu .forActivistBody {
-  font-size: 40px;
-  overflow-wrap: normal;
-}
-
-/*===hooter===*/
-
-.hooter {
-  font-size: 22px;
-}
-
-</style>
-</head>
-<body>
 <!doctype html>
 <html lang="ja">
   
@@ -508,8 +231,46 @@ onclick="window.open('https://www.youtube.com/channel/UCEZUdrQeGqaAiMIMX3jA8sg')
           </p>
           
               </div>        
-                            
+<!--buttonEnd-->        
         
+      </div>
+      
+<!--buttonStart-->   
+  
+      <div class=buttonList>  
+      
+<!--yuraButton-->       
+        
+        <div class=yuraList>
+        
+          <button class="yuraButton"
+                  type="image"
+                  onclick="window.open('https://youtube.com/playlist?list=PL0aKETkHJcscbOaXC2mEC7RMH-bpP9cQb')">
+            <image src="https://yt3.ggpht.com/0UznkFvUuBGwhidYDo2k67Tw51KqOyjTcKXVDy7fE9UpfEYrdBTzxTc7oDqGsAUxGGRf-JZM2A=s88-c-k-c0x00ffffff-no-rj" alt="音凪由良チャンネルでんでん編集の再生リストへ"/>
+          </button>
+
+          <p class="yura">
+          　音凪由良
+          </p>
+      
+        </div>
+        
+<!--naochimuButton-->       
+        
+        <div class=naoList>
+        
+          <button class="naoButton"
+                  type="image"
+                  onclick="window.open('https://youtube.com/playlist?list=PL0aKETkHJcsd_PzkOL1kW4Lp2_-8I1zfE')">
+            <image src="https://yt3.ggpht.com/_JxDQeJfGkAO5Pd6fRrfF9qz7q554zBm6O4HeSq0oNv7LigfzwyA9XAASmgA7tTWh-eJseHHzA=s88-c-k-c0x00ffffff-no-rj" alt="なおちむさんチャンネルでんでん編集の再生リストへ"/>
+          </button>
+
+          <p class="nao">
+          　なおちむ
+          </p>
+      
+        </div>        
+
 <!--buttonEnd-->       
       
       </div>
@@ -546,8 +307,3 @@ onclick="window.open('https://www.youtube.com/channel/UCEZUdrQeGqaAiMIMX3jA8sg')
  </p>
 
  <!--careerの画像はyoutubeアイコンから--> 
-
-<script src="filesystem:chrome-extension://lkfkkhfhhdkiemehlpkgjeojomhpccnh/temporary/script.js">
-</script>
-</body>
-</html>
