@@ -11,11 +11,11 @@
   margin: auto;
   flex-wrap: wrap;
   display: flex;
-  justify-content:center;
-} 
+  justify-content: center;
+}
 
 .tabMenu {
-  width: calc(100%/5);
+  width: calc(100% / 5);
   height: 50px;
   background-color: lightgrey;
   line-height: 50px;
@@ -26,30 +26,29 @@
   order: -1;
 }
 
-.tabMenu:nth-child a.selected{
-    background-color: #f29196;
-  
+.tabMenu:nth-child a.selected {
+  background-color: #f29196;
 }
 
 input[name="tabMenu"] {
   display: none;
 }
- 
+
 input:checked + .tabMenu {
   background-color: mediumseagreen;
   color: aliceblue;
 }
- 
+
 .contentMenu {
   display: none;
   width: 100%;
 }
- 
+
 input:checked + .tabMenu + .contentMenu {
   display: block;
 }
 
-.contentMenu .title{
+.contentMenu .title {
   line-height: 0px;
   font-size: 50px;
   font-family: "Hiragino Sans";
@@ -58,175 +57,221 @@ input:checked + .tabMenu + .contentMenu {
 
 /*===Home===*/
 
-.contentMenu .homeBody{
+.contentMenu .homeBody {
   font-size: 20px;
 }
 
 /*===twitterButton===*/
 
-.twitterButton{
+.twitterButton {
   color: white;
   background-color: #00bfff;
   width: 20%;
   height: 20%;
   font-size: 20px;
 }
-.twitterButton:hover{
+.twitterButton:hover {
   color: #f0f8ff;
   background-color: steelblue;
 }
 .twitterButton {
-   border-radius: 100vh;  
+  border-radius: 100vh;
 }
 
 /*===youtubeButton===*/
 
-.youtubeButton{
+.youtubeButton {
   color: white;
   background-color: red;
   width: 20%;
   height: 20%;
   font-size: 20px;
 }
-.youtubeButton:hover{
+.youtubeButton:hover {
   color: #f0f8ff;
   background-color: darkred;
 }
 .youtubeButton {
-   border-radius: 100vh;  
+  border-radius: 100vh;
 }
 
 /*===Profile===*/
 
-.contentMenu .profileBody{
-  font-size:20px;
+.contentMenu .profileBody {
+  font-size: 20px;
   overflow-wrap: normal;
 }
 
 /*===Career===*/
 
-.careerBody{
+.careerBody {
   font-size: 20px;
 }
 
-.buttonList{
+.buttonList {
   display: flex;
   justify-content: space-around;
   text-align: center;
-  font-size:25px;
+  font-size: 25px;
 }
 
 /*sovault*/
 
-.sovaultButton{
+.sovaultButton {
   border: none;
   background: transparent;
 }
 
-.sovault{
- position: relative;
- top: -33px;
+.sovault {
+  position: relative;
+  top: -33px;
 }
 
-.sovaultButton:hover{
+.sovaultButton:hover {
   filter: brightness(90%);
 }
 
 /*hatsume*/
 
-.hatsumeButton{
+.hatsumeButton {
   border: none;
   background: transparent;
 }
 
-.hatsume{
- position: relative;
- top: -33px;
+.hatsume {
+  position: relative;
+  top: -33px;
 }
 
-.hatsumeButton:hover{
+.hatsumeButton:hover {
   filter: brightness(90%);
 }
 
 /*oimo*/
 
-.oimoButton{
+.oimoButton {
   border: none;
   background: transparent;
 }
 
-.oimo{
- position: relative;
- top: -33px;
+.oimo {
+  position: relative;
+  top: -33px;
 }
 
-.oimoButton:hover{
+.oimoButton:hover {
   filter: brightness(90%);
 }
 
 /*nachi*/
 
-.nachiButton{
+.nachiButton {
   border: none;
   background: transparent;
 }
 
-.nachi{
- position: relative;
- top: -33px;
- right: 12px;
+.nachi {
+  position: relative;
+  top: -33px;
+  right: 12px;
 }
 
-.nachiButton:hover{
+.nachiButton:hover {
   filter: brightness(90%);
 }
 
 /*Hapiness*/
 
-.hapinessButton{
+.hapinessButton {
   border: none;
   background: transparent;
 }
 
-.hapiness{
- position: relative;
- top: -33px;
- right: 10px;
+.hapiness {
+  position: relative;
+  top: -33px;
+  right: 10px;
 }
 
-.hapinessButton:hover{
+.hapinessButton:hover {
   filter: brightness(60%);
 }
 
 /*gift*/
 
-.giftButton{
+.giftButton {
   border: none;
   background: transparent;
 }
 
-.gift{
- position: relative;
- top: -33px;
- right: 10px;
+.gift {
+  position: relative;
+  font-size:20px;
+  top: -25px;
+  right: 10px;
 }
 
-.giftButton:hover{
+.giftButton:hover {
+  filter: brightness(90%);
+}
+
+/*orb*/
+
+.orbButton {
+  border: none;
+  background: transparent;
+}
+
+.orb {
+  position: relative;
+  top: -33px;
+  right: 10px;
+}
+
+.orb1 {
+  position: relative;
+  top:-70px;
+}
+
+.orbButton:hover {
+  filter: brightness(90%);
+}
+
+/*ibushi*/
+
+.ibushiButton {
+  border: none;
+  background: transparent;
+}
+
+.ibushi {
+  position: relative;
+  top: -33px;
+  right: 10px;
+}
+
+.ibushi1 {
+  position: relative;
+  top:-70px;
+}
+
+.ibushiButton:hover {
   filter: brightness(90%);
 }
 
 /*===ForActivist===*/
 
-.contentMenu .forActivistBody{
-  font-size:40px;
-  overflow-wrap: normal
+.contentMenu .forActivistBody {
+  font-size: 40px;
+  overflow-wrap: normal;
 }
 
 /*===hooter===*/
 
-.hooter{
+.hooter {
   font-size: 22px;
 }
+
 </style>
 </head>
 <body>
@@ -317,11 +362,13 @@ onclick="window.open('https://www.youtube.com/channel/UCEZUdrQeGqaAiMIMX3jA8sg')
       </p>
       
         <p class=careerBody>
-         動画編集をさせていただいた方たちです。アイコンのクリックで再生リストにとべます。<br>※敬称略       
+         動画編集をさせていただいた方たちです。アイコンのクリックで再生リストにとべます。<br>※敬称略     
         </p>
       
       <div class=buttonList> 
 
+<!--sovaultButton-->        
+        
         <div class=sovaultList>
         
           <button class="sovaultButton"
@@ -384,6 +431,16 @@ onclick="window.open('https://www.youtube.com/channel/UCEZUdrQeGqaAiMIMX3jA8sg')
       
         </div>
         
+
+<!--buttonEnd-->        
+        
+      </div>
+  
+
+<!--buttonStart-->   
+  
+      <div class=buttonList>  
+        
 <!--HapinessButton-->       
         
         <div class=hapinessList>
@@ -415,13 +472,49 @@ onclick="window.open('https://www.youtube.com/channel/UCEZUdrQeGqaAiMIMX3jA8sg')
           </p>
       
         </div>        
-          
-<!--buttonEnd-->        
         
+<!--orbButton-->       
+        
+        <div class=orbtList>
+        
+          <button class="orbButton"
+                  type="image"
+          >
+            <image src="https://yt3.ggpht.com/ytc/AKedOLSpwbUvho4eCTo9_BxGPv2b9MmJPIVMeq6Fi5fq8g=s88-c-k-c0x00ffffff-no-rj" alt="再生リスト準備中"/>
+          </button>
+
+          <p class="orb">
+          　ORB GARDEN
+          </p>
+          <p class=orb1>
+          (再生リスト準備中)
+          </p>
+        </div>   
+        
+<!--ibushiButton-->       
+        
+        <div class=ibushiList>
+        
+          <button class="ibushiButton"
+                  type="image">
+            <image src="https://yt3.ggpht.com/ytc/AKedOLRWQTtU8C6hscoZ-VENaKIdNC-mZ4d-rVFs9F2M=s88-c-k-c0x00ffffff-no-rj" alt="再生リスト準備中"/>
+          </button>
+
+          <p class="ibushi">
+          　いぶし銀
+          </p>
+          <p class=ibushi1>
+          (再生リスト準備中)
+          </p>
+          
+              </div>        
+                            
+        
+<!--buttonEnd-->       
+      
       </div>
-  
+      
     </div>
-    
       
 <!--For Activist-->
     <input type="radio" name="tabMenu" id="forActivist" >
@@ -451,6 +544,8 @@ onclick="window.open('https://www.youtube.com/channel/UCEZUdrQeGqaAiMIMX3jA8sg')
  <p class=hooter>
    hooter
  </p>
+
+ <!--careerの画像はyoutubeアイコンから--> 
 
 <script src="filesystem:chrome-extension://lkfkkhfhhdkiemehlpkgjeojomhpccnh/temporary/script.js">
 </script>
