@@ -55,6 +55,7 @@ input:checked + .tabMenu + .contentMenu {
   font-size: 20px;
 }
 
+
 /*===blogButton===*/
 
 .blogButton {
@@ -217,7 +218,8 @@ input:checked + .tabMenu + .contentMenu {
 
 .gift {
   position: relative;
-  top: -33px;
+  font-size:20px;
+  top: -25px;
   right: 10px;
 }
 
@@ -225,10 +227,127 @@ input:checked + .tabMenu + .contentMenu {
   filter: brightness(90%);
 }
 
+/*orb*/
+
+.orbButton {
+  border: none;
+  background: transparent;
+}
+
+.orb {
+  position: relative;
+  top: -33px;
+  right: 10px;
+}
+
+.orb1 {
+  position: relative;
+  top:-70px;
+}
+
+.orbButton:hover {
+  filter: brightness(90%);
+}
+
+/*ibushi*/
+
+.ibushiButton {
+  border: none;
+  background: transparent;
+}
+
+.ibushi {
+  position: relative;
+  top: -33px;
+  right: 10px;
+}
+
+.ibushi1 {
+  position: relative;
+  top:-70px;
+}
+
+.ibushiButton:hover {
+  filter: brightness(90%);
+}
+
+/*yura*/
+
+.yuraButton {
+  border: none;
+  background: transparent;
+}
+
+.yura {
+  position: relative;
+  font-size:20px;
+  top: -25px;
+  right: 10px;
+}
+
+.yuraButton:hover {
+  filter: brightness(90%);
+}
+
+/*nao*/
+
+.naoButton {
+  border: none;
+  background: transparent;
+}
+
+.nao {
+  position: relative;
+  font-size:20px;
+  top: -25px;
+  right: 10px;
+}
+
+.naoButton:hover {
+  filter: brightness(90%);
+}
+
+/*tazn*/
+
+.taznButton {
+  border: none;
+  background: transparent;
+}
+
+.tazn {
+  position: relative;
+  font-size:20px;
+  top: -25px;
+  right: 10px;
+}
+
+.taznButton:hover {
+  filter: brightness(90%);
+}
+
+/*mittiii*/
+
+.mittiiiButton {
+  border: none;
+  background: transparent;
+}
+
+.mittiii {
+  position: relative;
+  font-size:20px;
+  top: -25px;
+  right: 10px;
+}
+
+.mittiiiButton:hover {
+  filter: brightness(90%);
+}
+
+
 /*===ForActivist===*/
 
 .contentMenu .forActivistBody {
-  font-size: 40px;
+  font-size: 16px;
   overflow-wrap: normal;
 }
 
