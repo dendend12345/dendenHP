@@ -46,7 +46,7 @@ input:checked + .tabMenu + .contentMenu {
   line-height: 0px;
   font-size: 50px;
   font-family: "Hiragino Sans";
-  font-weight: bold;
+  font-weight: bold;  
 }
 
 /*===Home===*/
