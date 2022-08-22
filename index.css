@@ -46,31 +46,13 @@ input:checked + .tabMenu + .contentMenu {
   line-height: 0px;
   font-size: 50px;
   font-family: "Hiragino Sans";
-  font-weight: bold;  
+  font-weight: bold;
 }
 
 /*===Home===*/
 
 .contentMenu .homeBody {
   font-size: 20px;
-}
-
-
-/*===blogButton===*/
-
-.blogButton {
-  color: black;
-  background-color: #7fff7f;
-  width: 20%;
-  height: 20%;
-  font-size: 20px;
-}
-.blogButton:hover {
-  color: #73e673;
-  background-color: steelblue;
-}
-.blogButton {
-  border-radius: 100vh;
 }
 
 /*===twitterButton===*/
@@ -104,6 +86,23 @@ input:checked + .tabMenu + .contentMenu {
   background-color: darkred;
 }
 .youtubeButton {
+  border-radius: 100vh;
+}
+
+/*===blogButton===*/
+
+.blogButton {
+  color: white;
+  background-color: green;
+  width: 20%;
+  height: 20%;
+  font-size: 20px;
+}
+.blogButton:hover {
+  color: #f0f8ff;
+  background-color: #3cb371;
+}
+.blogButton {
   border-radius: 100vh;
 }
 
