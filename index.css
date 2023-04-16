@@ -13,10 +13,10 @@
   height: 50px;
   background-color: lightgrey;
   line-height: 50px;
-  font-size: 15px;
+  font-size: 25px;
   text-align: center;
   display: block;
-  float: left;
+  float: right;
   order: -1;
 }
 
@@ -51,307 +51,265 @@ input:checked + .tabMenu + .contentMenu {
 
 /*===Home===*/
 
-.contentMenu .homeBody {
-  font-size: 20px;
-}
+  .contentMenu .homeBody {
+    font-size: 20px;
+    }
 
-/*===twitterButton===*/
+  /*===twitterButton===*/
 
-.twitterButton {
-  color: white;
-  background-color: #00bfff;
-  width: 20%;
-  height: 20%;
-  font-size: 20px;
-}
-.twitterButton:hover {
-  color: #f0f8ff;
-  background-color: steelblue;
-}
-.twitterButton {
-  border-radius: 100vh;
-}
+    .twitterButton {
+      color: white;
+      background-color: #00bfff;
+      width: 20%;
+      height: 20%;
+      font-size: 20px;
+    }
+    .twitterButton:hover {
+      color: #f0f8ff;
+      background-color: steelblue;
+    }
+    .twitterButton {
+      border-radius: 100vh;
+    }
 
-/*===youtubeButton===*/
+  /*===youtubeButton===*/
 
-.youtubeButton {
-  color: white;
-  background-color: red;
-  width: 20%;
-  height: 20%;
-  font-size: 20px;
-}
-.youtubeButton:hover {
-  color: #f0f8ff;
-  background-color: darkred;
-}
-.youtubeButton {
-  border-radius: 100vh;
-}
+    .youtubeButton {
+      color: white;
+      background-color: red;
+      width: 20%;
+      height: 20%;
+      font-size: 20px;
+    }
+    .youtubeButton:hover {
+      color: #f0f8ff;
+      background-color: darkred;
+    }
+    .youtubeButton {
+      border-radius: 100vh;
+    }
 
-/*===blogButton===*/
+  /*===blogButton===*/
 
-.blogButton {
-  color: white;
-  background-color: green;
-  width: 20%;
-  height: 20%;
-  font-size: 20px;
-}
-.blogButton:hover {
-  color: #f0f8ff;
-  background-color: #3cb371;
-}
-.blogButton {
-  border-radius: 100vh;
-}
+    .blogButton {
+      color: white;
+      background-color: green;
+      width: 20%;
+      height: 20%;
+      font-size: 20px;
+    }
+    .blogButton:hover {
+      color: #f0f8ff;
+      background-color: #3cb371;
+    }
+    .blogButton {
+      border-radius: 100vh;
+    }
 
 /*===Profile===*/
 
-.contentMenu .profileBody {
-  font-size: 20px;
-  overflow-wrap: normal;
-}
+  .contentMenu .profileBody {
+    font-size: 20px;
+  }
 
 /*===Career===*/
 
-.careerBody {
-  font-size: 20px;
-}
+  .careerBody {
+    font-size: 20px;
+  }
 
-.buttonList {
-  display: flex;
-  justify-content: space-around;
-  text-align: center;
-  font-size: 25px;
-}
+  .buttonList {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 25px;
+  }
 
-/*sovault*/
+  /*sovault*/
+    .sovaultButton {
+      border: none;
+      background: transparent;
+    }
+    .sovault {
+      position: relative;
+      top: -33px;
+    }
+    .sovaultButton:hover {
+      filter: brightness(90%);
+    }
 
-.sovaultButton {
-  border: none;
-  background: transparent;
-}
+  /*hatsume*/
+    .hatsumeButton {
+      border: none;
+      background: transparent;
+    }
+    .hatsume {
+      position: relative;
+      top: -33px;
+    }
+    .hatsumeButton:hover {
+      filter: brightness(90%);
+    }
 
-.sovault {
-  position: relative;
-  top: -33px;
-}
+  /*oimo*/
+    .oimoButton {
+      border: none;
+      background: transparent;
+    }
+    .oimo {
+      position: relative;
+      top: -33px;
+    }
+    .oimoButton:hover {
+      filter: brightness(90%);
+    }
 
-.sovaultButton:hover {
-  filter: brightness(90%);
-}
+  /*nachi*/
+    .nachiButton {
+      border: none;
+      background: transparent;
+    }
+    .nachi {
+      position: relative;
+      top: -33px;
+      right: 12px;
+    }
+    .nachiButton:hover {
+      filter: brightness(90%);
+    }
 
-/*hatsume*/
+  /*Hapiness*/
+    .hapinessButton {
+      border: none;
+      background: transparent;
+    }
+    .hapiness {
+      position: relative;
+      top: -33px;
+      right: 10px;
+    }
+    .hapinessButton:hover {
+      filter: brightness(60%);
+    }
 
-.hatsumeButton {
-  border: none;
-  background: transparent;
-}
+  /*gift*/
+    .giftButton {
+      border: none;
+      background: transparent;
+    }
+    .gift {
+      position: relative;
+      font-size:20px;
+      top: -25px;
+      right: 10px;
+    }
+    .giftButton:hover {
+      filter: brightness(90%);
+    }
 
-.hatsume {
-  position: relative;
-  top: -33px;
-}
+  /*orb*/
+    .orbButton {
+      border: none;
+      background: transparent;
+    }
+    .orb {
+      position: relative;
+      top: -33px;
+      right: 10px;
+    }
+    .orb1 {
+      position: relative;
+      top:-70px;
+    }
+    .orbButton:hover {
+      filter: brightness(90%);
+    }
+  
+  /*ibushi*/
+    .ibushiButton {
+      border: none;
+      background: transparent;
+    }
+    .ibushi {
+      position: relative;
+      top: -33px;
+      right: 10px;
+    }
+    .ibushi1 {
+      position: relative;
+      top:-70px;
+    }
+    .ibushiButton:hover {
+      filter: brightness(90%);
+    }
 
-.hatsumeButton:hover {
-  filter: brightness(90%);
-}
+  /*yura*/
+    .yuraButton {
+      border: none;
+      background: transparent;
+    }
+    .yura {
+      position: relative;
+      font-size:20px;
+      top: -25px;
+      right: 10px;
+    }
+    .yuraButton:hover {
+      filter: brightness(90%);
+    }
 
-/*oimo*/
+  /*nao*/
+    .naoButton {
+      border: none;
+      background: transparent;
+    }
+    .nao {
+      position: relative;
+      font-size:20px;
+      top: -25px;
+      right: 10px;
+    }
+    .naoButton:hover {
+      filter: brightness(90%);
+    }
 
-.oimoButton {
-  border: none;
-  background: transparent;
-}
+  /*tazn*/
+    .taznButton {
+      border: none;
+      background: transparent;
+    }
+    .tazn {
+      position: relative;
+      font-size:20px;
+      top: -25px;
+      right: 10px;
+    }
+    .taznButton:hover {
+      filter: brightness(90%);
+    }
 
-.oimo {
-  position: relative;
-  top: -33px;
-}
-
-.oimoButton:hover {
-  filter: brightness(90%);
-}
-
-/*nachi*/
-
-.nachiButton {
-  border: none;
-  background: transparent;
-}
-
-.nachi {
-  position: relative;
-  top: -33px;
-  right: 12px;
-}
-
-.nachiButton:hover {
-  filter: brightness(90%);
-}
-
-/*Hapiness*/
-
-.hapinessButton {
-  border: none;
-  background: transparent;
-}
-
-.hapiness {
-  position: relative;
-  top: -33px;
-  right: 10px;
-}
-
-.hapinessButton:hover {
-  filter: brightness(60%);
-}
-
-/*gift*/
-
-.giftButton {
-  border: none;
-  background: transparent;
-}
-
-.gift {
-  position: relative;
-  font-size:20px;
-  top: -25px;
-  right: 10px;
-}
-
-.giftButton:hover {
-  filter: brightness(90%);
-}
-
-/*orb*/
-
-.orbButton {
-  border: none;
-  background: transparent;
-}
-
-.orb {
-  position: relative;
-  top: -33px;
-  right: 10px;
-}
-
-.orb1 {
-  position: relative;
-  top:-70px;
-}
-
-.orbButton:hover {
-  filter: brightness(90%);
-}
-
-/*ibushi*/
-
-.ibushiButton {
-  border: none;
-  background: transparent;
-}
-
-.ibushi {
-  position: relative;
-  top: -33px;
-  right: 10px;
-}
-
-.ibushi1 {
-  position: relative;
-  top:-70px;
-}
-
-.ibushiButton:hover {
-  filter: brightness(90%);
-}
-
-/*yura*/
-
-.yuraButton {
-  border: none;
-  background: transparent;
-}
-
-.yura {
-  position: relative;
-  font-size:20px;
-  top: -25px;
-  right: 10px;
-}
-
-.yuraButton:hover {
-  filter: brightness(90%);
-}
-
-/*nao*/
-
-.naoButton {
-  border: none;
-  background: transparent;
-}
-
-.nao {
-  position: relative;
-  font-size:20px;
-  top: -25px;
-  right: 10px;
-}
-
-.naoButton:hover {
-  filter: brightness(90%);
-}
-
-/*tazn*/
-
-.taznButton {
-  border: none;
-  background: transparent;
-}
-
-.tazn {
-  position: relative;
-  font-size:20px;
-  top: -25px;
-  right: 10px;
-}
-
-.taznButton:hover {
-  filter: brightness(90%);
-}
-
-/*mittiii*/
-
-.mittiiiButton {
-  border: none;
-  background: transparent;
-}
-
-.mittiii {
-  position: relative;
-  font-size:20px;
-  top: -25px;
-  right: 10px;
-}
-
-.mittiiiButton:hover {
-  filter: brightness(90%);
-}
+  /*mittiii*/
+    .mittiiiButton {
+      border: none;
+      background: transparent;
+    }
+    .mittiii {
+      position: relative;
+      font-size:20px;
+      top: -25px;
+      right: 10px;
+    }
+    .mittiiiButton:hover {
+      filter: brightness(90%);
+    }
 
 
 /*===ForActivist===*/
+  .contentMenu .forActivistBody {
+          font-size: 20px;
+        }
 
-.contentMenu .forActivistBody {
-  font-size: 16px;
-  overflow-wrap: normal;
-}
-
-/*===hooter===*/
-
+/*---hooter---*/
 .hooter {
-  font-size: 22px;
-}
+    font-size: 22px;
+  }
