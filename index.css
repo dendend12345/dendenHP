@@ -1,315 +1,68 @@
-/*===tab===*/
-
-.tab {
-  width: 75%;
-  margin: auto;
-  flex-wrap: wrap;
-  display: flex;
-  justify-content: center;
+#About{
+  position: absolute;
+  left: 5%;
 }
 
-.tabMenu {
-  width: calc(100% / 5);
-  height: 50px;
-  background-color: lightgrey;
-  line-height: 50px;
-  font-size: 25px;
-  text-align: center;
-  display: block;
-  float: right;
-  order: -1;
+#Portfolio{
+  position: absolute;
+  left: 5%;
 }
 
-.tabMenu:nth-child a.selected {
-  background-color: #f29196;
-}
-
-input[name="tabMenu"] {
-  display: none;
-}
-
-input:checked + .tabMenu {
-  background-color: mediumseagreen;
+.t_footer{
   color: aliceblue;
 }
 
-.contentMenu {
-  display: none;
-  width: 100%;
+a{
+  font-size: 200%;
+  color: black;
+  padding: 0 10px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 50%, rgb(0, 80, 16) 50%);
+  background-position: 0 0;
+  background-size: 200% auto;
+  transition: .3s;
 }
 
-input:checked + .tabMenu + .contentMenu {
-  display: block;
+a:any-link:hover {
+  background-position: -100% 0;
+  color: #fff;
 }
 
-.contentMenu .title {
-  line-height: 0px;
-  font-size: 50px;
-  font-family: "Hiragino Sans";
-  font-weight: bold;
+a:link{
+  color: black;
 }
 
-/*===Home===*/
-
-  .contentMenu .homeBody {
-    font-size: 20px;
-    }
-
-  /*===twitterButton===*/
-
-    .twitterButton {
-      color: white;
-      background-color: #00bfff;
-      width: 20%;
-      height: 20%;
-      font-size: 20px;
-    }
-    .twitterButton:hover {
-      color: #f0f8ff;
-      background-color: steelblue;
-    }
-    .twitterButton {
-      border-radius: 100vh;
-    }
-
-  /*===youtubeButton===*/
-
-    .youtubeButton {
-      color: white;
-      background-color: red;
-      width: 20%;
-      height: 20%;
-      font-size: 20px;
-    }
-    .youtubeButton:hover {
-      color: #f0f8ff;
-      background-color: darkred;
-    }
-    .youtubeButton {
-      border-radius: 100vh;
-    }
-
-  /*===blogButton===*/
-
-    .blogButton {
-      color: white;
-      background-color: green;
-      width: 20%;
-      height: 20%;
-      font-size: 20px;
-    }
-    .blogButton:hover {
-      color: #f0f8ff;
-      background-color: #3cb371;
-    }
-    .blogButton {
-      border-radius: 100vh;
-    }
-
-/*===Profile===*/
-
-  .contentMenu .profileBody {
-    font-size: 20px;
+/*PCサイズ*/
+@media screen and (min-width: 481px) {
+  .p_header{
+    width: 100%;
+    margin: auto;
+    display: block;
   }
 
-/*===Career===*/
-
-  .careerBody {
-    font-size: 20px;
-  }
-
-  .buttonList {
-    display: flex;
-    justify-content: space-around;
+  footer{
+    width: 100%;
+    height: 120px; 
     text-align: center;
-    font-size: 25px;
+    padding: 50px 0;
+    background-color: #00881d;
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+/*スマホサイズ*/
+@media screen and (max-width: 480px) {
+  .p_header{
+    width: 100%;
   }
 
-  /*sovault*/
-    .sovaultButton {
-      border: none;
-      background: transparent;
-    }
-    .sovault {
-      position: relative;
-      top: -33px;
-    }
-    .sovaultButton:hover {
-      filter: brightness(90%);
-    }
-
-  /*hatsume*/
-    .hatsumeButton {
-      border: none;
-      background: transparent;
-    }
-    .hatsume {
-      position: relative;
-      top: -33px;
-    }
-    .hatsumeButton:hover {
-      filter: brightness(90%);
-    }
-
-  /*oimo*/
-    .oimoButton {
-      border: none;
-      background: transparent;
-    }
-    .oimo {
-      position: relative;
-      top: -33px;
-    }
-    .oimoButton:hover {
-      filter: brightness(90%);
-    }
-
-  /*nachi*/
-    .nachiButton {
-      border: none;
-      background: transparent;
-    }
-    .nachi {
-      position: relative;
-      top: -33px;
-      right: 12px;
-    }
-    .nachiButton:hover {
-      filter: brightness(90%);
-    }
-
-  /*Hapiness*/
-    .hapinessButton {
-      border: none;
-      background: transparent;
-    }
-    .hapiness {
-      position: relative;
-      top: -33px;
-      right: 10px;
-    }
-    .hapinessButton:hover {
-      filter: brightness(60%);
-    }
-
-  /*gift*/
-    .giftButton {
-      border: none;
-      background: transparent;
-    }
-    .gift {
-      position: relative;
-      font-size:20px;
-      top: -25px;
-      right: 10px;
-    }
-    .giftButton:hover {
-      filter: brightness(90%);
-    }
-
-  /*orb*/
-    .orbButton {
-      border: none;
-      background: transparent;
-    }
-    .orb {
-      position: relative;
-      top: -33px;
-      right: 10px;
-    }
-    .orb1 {
-      position: relative;
-      top:-70px;
-    }
-    .orbButton:hover {
-      filter: brightness(90%);
-    }
-  
-  /*ibushi*/
-    .ibushiButton {
-      border: none;
-      background: transparent;
-    }
-    .ibushi {
-      position: relative;
-      top: -33px;
-      right: 10px;
-    }
-    .ibushi1 {
-      position: relative;
-      top:-70px;
-    }
-    .ibushiButton:hover {
-      filter: brightness(90%);
-    }
-
-  /*yura*/
-    .yuraButton {
-      border: none;
-      background: transparent;
-    }
-    .yura {
-      position: relative;
-      font-size:20px;
-      top: -25px;
-      right: 10px;
-    }
-    .yuraButton:hover {
-      filter: brightness(90%);
-    }
-
-  /*nao*/
-    .naoButton {
-      border: none;
-      background: transparent;
-    }
-    .nao {
-      position: relative;
-      font-size:20px;
-      top: -25px;
-      right: 10px;
-    }
-    .naoButton:hover {
-      filter: brightness(90%);
-    }
-
-  /*tazn*/
-    .taznButton {
-      border: none;
-      background: transparent;
-    }
-    .tazn {
-      position: relative;
-      font-size:20px;
-      top: -25px;
-      right: 10px;
-    }
-    .taznButton:hover {
-      filter: brightness(90%);
-    }
-
-  /*mittiii*/
-    .mittiiiButton {
-      border: none;
-      background: transparent;
-    }
-    .mittiii {
-      position: relative;
-      font-size:20px;
-      top: -25px;
-      right: 10px;
-    }
-    .mittiiiButton:hover {
-      filter: brightness(90%);
-    }
-
-
-/*===ForActivist===*/
-  .contentMenu .forActivistBody {
-          font-size: 20px;
-        }
-
-/*---hooter---*/
-.hooter {
-    font-size: 22px;
+  footer {
+    width: 100%;
+    height: 120px; 
+    text-align: center;
+    padding: 50px 0;
+    background-color: #00881d;
+    position: absolute;
+    bottom: 0;
   }
+}
