@@ -1,392 +1,94 @@
 <!doctype html>
-  <html lang="ja">
-      <link rel="stylesheet" href="./index.css">
+    <html lang="ja">
 
-<!--Home head--> 
-<head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-G2TXH8FKT6"></script>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-  <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
 
-  gtag('config', 'G-G2TXH8FKT6');
-  </script>
-</head>
+        <script src="/js/jquery.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
 
-<!--でんでん画像top-->
-<div style="text-align:center">
-<img src=
-    "https://cdn.discordapp.com/attachments/888984480893779978/888984505476579348/6701181fef6b3dd7.png" alt="でんでんの画像" width="200">
-</div>
+    <h1 class="text-center">
+        <img src="/img/header.png" width="90">
+        <nobr class="denden">でんでんの飼育小屋</nobr>
+        <img src="/img/header.png" width="90"><br><br>
+    </h1>
 
-<body>  
+    <div class="text-center">
+        <h2>
+            自己紹介
+        </h2>
 
-  <div class="tab">
-    
-  <!--Home tab-->    
-    <input type="radio" name="tabMenu" id="home" checked>
-    
-    <label class="tabMenu" for="home">
-      Home
-    </label>
-    
-    <div class="contentMenu">
-        
-      <p class=title>
-        Home
-      </p>
-      
-      <p class=homeBody>
-        頑張らない程度員頑張る<br>不定期が定期<br>制作途中HP許してね
-      </p>
-        
-      <button class="twitterButton"
-        type="button"
-          onclick="window.open('https://twitter.com/dendend12345')">
-              twitter        
-      </button>
-        
-      <button class="youtubeButton"
-        type="button"onclick="window.open('https://www.youtube.com/channel/UCEZUdrQeGqaAiMIMX3jA8sg')">
-          youtube
-      </button>
-
-      <a href="./blog/blog.html">
-        でんでんのブログ
-      </a>
-
-    </div>
-    
-  <!--Profile-->
-    <input type="radio" name="tabMenu" id="profile" >
-    
-    <label class="tabMenu" for="profile">
-      Profile
-    </label>
-  
-    <div class=contentMenu>
-    
-      <p class=title>
-        Profile
-      </p>
-        
-      <p class=profileBody>
-        <img src="https://cdn.discordapp.com/attachments/888984480893779978/892045769882861579/54a9241f117ac3af.png" alt="でんでんアイコン" align="left" width="200">
-        <p class=profileBody>
-          1998年12月18日生。東京都在住。<br>大学1年の頃より動画編集を学び始め、ソバルトチャンネルにて3年間編集者を務める。その後はつめチャンネルの編集者も務めた。またそれぞれのチャンネルのマインクラフトやRustのサーバー管理を行い、ソバクラでは全体統括者、コマンド班として活動した。現在はIT職に務めながら動画編集、画像やロゴ制作、3Dモデリング、ＶＲワールド制作など幅広く学習中。
-        </p> 
-      </p>
-    </div>
-    
-
-  <!--Career-->
-    <input type="radio" name="tabMenu" id="career">
-
-    <label class="tabMenu" for="career">
-      Career
-    </label>
-
-    <div class="contentMenu">
-      
-      <p class=title>
-        Career
-      </p>
-      
-      <p class=careerBody>
-        ご依頼を頂いた方リスト。アイコンのクリックで再生リストにとべます。<br>※敬称略     
-      </p>
-      
-
-      <!--buttonStart1-->  
-      <div class=buttonList> 
-        <!--sovaultButton-->        
-        <div class=sovaultList>
-        
-          <button class="sovaultButton"
-                  type="image"
-                  onclick="window.open('https://www.youtube.com/playlist?list=PL0aKETkHJcsd1WL68pQvehdYMUvMWED4v')">
-            <image src="https://yt3.ggpht.com/ytc/AKedOLQHldY8Yos8oEu03O26boWhLthTz8LKGHV6xBmljg=s88-c-k-c0x00ffffff-no-rj"/ class="sovaultImage" alt="ソバルトチャンネルでんでん編集の再生リストへ"/>
-          </button>
-
-          <p class="sovault">
-            sovault
-          </p>
-      
-        </div>
-
-        <!--hatsumeButton-->
-        <div class=HatsumeList>
-        
-          <button class="hatsumeButton"
-                  type="image"
-                  onclick="window.open('https://www.youtube.com/playlist?list=PL0aKETkHJcsfGlbuRo0IQ9eW8VVlHFM-v')">
-            <image src="https://yt3.ggpht.com/ytc/AKedOLTDdnSAn7oc3LxZuDG-c0P40wSThm_5BU3FHQyURw=s88-c-k-c0x00ffffff-no-rj"/ class="hatsumeImage" alt="はつめチャンネルでんでん編集の再生リストへ"/>
-          </button>
-
-          <p class="hatsume">
-            Hatsume
-          </p>  
-          
-        </div>
-        
-        <!--oimoButton-->       
-        <div class=oimoltList>
-        
-          <button class="oimoButton"
-            type="image"
-            onclick="window.open('https://www.youtube.com/playlist?list=PL0aKETkHJcsfXQZ_Q48IFR2JlbEuBAP4o')">
-            <image src="https://yt3.ggpht.com/8nOOKVvbYNTueV4Nv7TvIMheYGlNmQ4GD0rxyxpgCR3fdtrv-JjIidfuuASKXYJ9dYYNWHz3nw=s88-c-k-c0x00ffffff-no-rj" alt="オイモチャンネルでんでん編集の再生リストへ"/>
-          </button>
-
-          <p class="oimo">
-            オイモ
-          </p>
-      
-        </div>
-        
-        <!--nachiButton-->       
-          <div class=nachiList>
-        
-            <button class="nachiButton"
-                    type="image"
-                    onclick="window.open('https://www.youtube.com/playlist?list=PL0aKETkHJcsc2W7Tyn-bHFuNliKZkX-TI')">
-              <image src="https://yt3.ggpht.com/ytc/AKedOLS0vrYotE7a-mj3K6IDKl-1F020povLOvXcENSoiw=s88-c-k-c0x00ffffff-no-rj" alt="なちチャンネルでんでん編集の再生リストへ"/>
-            </button>
-
-            <p class="nachi">
-            　なち
-            </p>
-      
-          </div>
-        
-
-        <!--buttonEnd-->    
-      </div>
-  
-      <!--buttonStart2-->   
-      <div class=buttonList>  
-        
-        <!--HapinessButton-->           
-        <div class=hapinessList>
-        
-          <button class="hapinessButton"
-                  type="image"
-                  onclick="window.open('https://www.youtube.com/playlist?list=PL0aKETkHJcse_VrzguudckZeK1r4gApU9')">
-            <image src="https://yt3.ggpht.com/ytc/AKedOLTJt1KiD5gUx04IKP-lM2CN1vKr72jBjBGc8Vaejw=s88-c-k-c0x00ffffff-no-rj" alt="はぴねすチャンネルでんでん編集の再生リストへ"/>
-          </button>
-
-          <p class="hapiness">
-          　HapinneSS
-          </p>
-      
-        </div>
-    
-        <!--giftButton-->     
-        <div class=giftList>
-        
-          <button class="giftButton"
-                  type="image"
-                  onclick="window.open('https://www.youtube.com/playlist?list=PL0aKETkHJcsc5_olfthoVH6O1RovWrus2')">
-            <image src="https://yt3.ggpht.com/ytc/AKedOLSeSYpyQGXD63MJsj91tCmoNstw8W0bz56o9hQI=s88-c-k-c0x00ffffff-no-rj" alt="ギフトさんチャンネルでんでん編集の再生リストへ"/>
-          </button>
-
-          <p class="gift">
-          　ギフトさん
-          </p>
-      
-        </div>
-
-        <!--orbButton-->       
-        <div class=orbtList>
-        
-          <button class="orbButton"
-                  type="image">
-            <image src="https://yt3.ggpht.com/ytc/AKedOLSpwbUvho4eCTo9_BxGPv2b9MmJPIVMeq6Fi5fq8g=s88-c-k-c0x00ffffff-no-rj" alt="再生リスト準備中"/>
-          </button>
-
-          <p class="orb">
-          　ORB GARDEN
-          </p>
-          <p class=orb1>
-          (再生リスト準備中)
-          </p>
-
-        </div>   
-        
-        <!--ibushiButton-->       
-        <div class=ibushiList>
-        
-          <button class="ibushiButton"
-                  type="image">
-            <image src="https://yt3.ggpht.com/ytc/AKedOLRWQTtU8C6hscoZ-VENaKIdNC-mZ4d-rVFs9F2M=s88-c-k-c0x00ffffff-no-rj" alt="再生リスト準備中"/>
-          </button>
-
-          <p class="ibushi">
-          　IBUSHIGIN
-          </p>
-          <p class=ibushi1>
-          (再生リスト準備中)
-          </p>
-          
-        </div>   
-
-        <!--buttonEnd-->        
-        
-      </div>
-      
-      <!--buttonStart3-->   
-      <div class=buttonList>  
-      
-        <!--yuraButton-->
-        <div class=yuraList>
-        
-          <button class="yuraButton"
-                  type="image"
-                  onclick="window.open('https://youtube.com/playlist?list=PL0aKETkHJcscbOaXC2mEC7RMH-bpP9cQb')">
-            <image src="https://yt3.ggpht.com/0UznkFvUuBGwhidYDo2k67Tw51KqOyjTcKXVDy7fE9UpfEYrdBTzxTc7oDqGsAUxGGRf-JZM2A=s88-c-k-c0x00ffffff-no-rj" alt="音凪由良チャンネルでんでん編集の再生リストへ"/>
-          </button>
-
-          <p class="yura">
-          　音凪由良
-          </p>
-      
-        </div>
-        
-        <!--naochimuButton-->
-        <div class=naoList>
-        
-          <button class="naoButton"
-                  type="image"
-                  onclick="window.open('https://youtube.com/playlist?list=PL0aKETkHJcsd_PzkOL1kW4Lp2_-8I1zfE')">
-            <image src="https://yt3.ggpht.com/_JxDQeJfGkAO5Pd6fRrfF9qz7q554zBm6O4HeSq0oNv7LigfzwyA9XAASmgA7tTWh-eJseHHzA=s88-c-k-c0x00ffffff-no-rj" alt="なおちむさんチャンネルでんでん編集の再生リストへ"/>
-          </button>
-
-          <p class="nao">
-          　なおちむ
-          </p>
-      
-        </div>        
-        
-        <!--taznButton-->
-        <div class=taznList>
-      
-          <button class="taznButton"
-                    type="image"
-                    onclick="window.open('https://www.youtube.com/playlist?list=PL0aKETkHJcsdTu9WeEkgTRmc5Z5VcHaDU')">
-            <image src="https://yt3.ggpht.com/ytc/AKedOLR_DGYAk55qn_vr52hY5-lhapmmZA2EeKt2lOoWgw=s88-c-k-c0x00ffffff-no-rj" alt="taznチャンネルでんでん編集の再生リストへ"/>
-          </button>
-
-          <p class="tazn">
-          　tazn
-          </p>
-      
-        </div>   
-        
-        <!--mittiiiButton-->
-        <div class=mittiiiList>
-      
-          <button class="mittiiiButton"
-                    type="image"
-                    onclick="window.open('https://youtube.com/playlist?list=PL0aKETkHJcse-b30HIRJsav6O-7UrnnzW')">
-            <image src="https://yt3.ggpht.com/ieeaKAt58kgo7Jij3llIoNXq76OiUGHqIzv7tNZUEcCTqF9X1p1DS9aoHtwJB-z5fHF5RCAF=s88-c-k-c0x00ffffff-no-rj" alt="mittiiiチャンネルでんでん編集の再生リストへ"/>
-          </button>
-
-          <p class="mittiii">
-          　mitttiii
-          </p>
-      
-        </div>   
-
-        <!--buttonEnd-->       
-      
-      </div>
-      
-    </div>
-        
-  <!--For Activist-->
-    <input type="radio" name="tabMenu" id="forActivist" >
-
-    <label class="tabMenu" for="forActivist">
-      For Activist
-    </label>
-  
-    <div class="contentMenu">
-      
-      <p class=title>
-        For Activist
-      </p>
-      
-        <p class=forActivistBody>
-        でんでんは現在、有償依頼のみ受け付けております。依頼可能内容は以下の通りです。ご連絡はTwitterのDM、メール、Discord(知っている人は)にて承ります。また、料金やお支払い方法は全てご連絡をいただけてからのご提案です。ご理解をお願いします。
-また、過去の実績はCareerページをご覧いただくか、Twitter、その他でんでんが登場するサイト・動画をご覧ください。（直接聞いてもらっても大丈夫です。）
-          
-          <br>
-          
-ーーーーーーーー
-            
-          <br>
-①動画編集
-          <br>
-②映像作品
-          <br>
-③画像編集、ロゴ制作
-          <br>
-④ゲームサーバーの管理
-          <br>
-⑤マインクラフトのコマンド、データパック及びリソースパックの作成
-          <br>
-ーーーーーーーー
-          <br>
-①動画編集
-          <br>
-実写動画、ゲーム実況・解説・クリップ、shortなど幅広い範囲でお受けします。
-          <br>
-②映像制作
-          <br>
-モーショングラフィックスを用いたアニメーションを制作します。例として、オープニング・エンディング素材、配信のオーバーレイ、歌動画のMVなどです。
-          <br>
-
-③画像編集
-          <br>
-動画や配信におけるサムネイル、ヘッダー画像やイベント・その他用途におけるロゴの作成をします。
-          <br>
-④MinecraftやArk、Rustといったゲームのサーバーを用意、稼働管理します。できるゲームについてはご自身でお調べいただくか、でんでんにご相談ください。
-          <br>
-⑤Minecraftにおけるオリジナルゲームやシステムを作ります。プラグインやMODではなく、データパックですのでご注意ください。また、それに付随するリソースパックも作成します。リソースパックのみのご依頼は承りませんのでご了承ください。
-          <br>
-ーーーーーーーーー
-          <br>
-皆さんの配信活動、投稿活動、ゲーム活動を少しでも盛り上げていけたらなと思います。頑張る人には応援したいと思うので、まずはぜひご相談ください。
-          <br>
-          <br>
-          そして、でんでんは配信者、投稿者さん応援のMinecraftのサーバーを運営してます。
-          
-          <br>
-          <br>
-          
-          ●コンセプト<br>
-配信や動画投稿などで活動者されている方が、人脈を広げたり仲間を見つけたりするためのサーバーです。みんなでゲームでもしてもらいながら交流の場所にしてもらえたらなと思います
-          
-          <br>
-          <br>
-          
-          気になる方は気軽にご連絡くださいませ。
+        <p>
+            のんびりマイペースに活動しているかたつむりです。<br>
+            動画撮影/編集やったり、画像編集ゲームサーバー管理者やったり、マイクラでデータパックやプラグインを作ったりしています。<br>
+            頑張らない程度に頑張ります。
         </p>
-      
     </div>
-      
-  </div>
-</body>    
-    
-<!--hotter-->  
-  
- <p class=hooter>
-   hooter
- </p>
 
-    
-    
- <!--careerの画像はyoutubeアイコンから--> 
+    <br>
+
+    <div class="text-center">
+        <p>
+            ご依頼いただいた方々、本当にありがとうございます。
+        </p>
+        
+        <ul class="slide">
+            <li><img src="https://yt3.googleusercontent.com/ytc/AIf8zZTnk_bR-eInu-Fm4c_C9olNKr4dRc0sF7qURe-H2w=s176-c-k-c0x00ffffff-no-rj" width="100"></li>
+            <li><img src="https://yt3.ggpht.com/jYv7bS59PjMxmPnRPcPXc1VldFOJUSDTDjVibEx7H3DvZ7az0VdoihyMYdNQ15B3xEnJqSQVug=s176-c-k-c0x00ffffff-no-rj-mo" width="100"></li>
+            <li><img src="https://yt3.ggpht.com/8nOOKVvbYNTueV4Nv7TvIMheYGlNmQ4GD0rxyxpgCR3fdtrv-JjIidfuuASKXYJ9dYYNWHz3nw=s176-c-k-c0x00ffffff-no-rj-mo" width="100"></li>
+            <li><img src="https://yt3.googleusercontent.com/AUYBX_DBfDx3ms-hGHL_9SCuP9crU4IpAN3Kp32NttrdHmha7LMxeBvXXmt0jMZVMT866Jg4aQ=s176-c-k-c0x00ffffff-no-rj" width="100"></li>
+            <li><img src="https://yt3.googleusercontent.com/ytc/AIf8zZSOJELRQnhPgf_BH1SVdGFdMfu7w35hK6-KoEZGkw=s176-c-k-c0x00ffffff-no-rj" width="100"></li>
+            <li><img src="https://yt3.googleusercontent.com/ieeaKAt58kgo7Jij3llIoNXq76OiUGHqIzv7tNZUEcCTqF9X1p1DS9aoHtwJB-z5fHF5RCAF=s176-c-k-c0x00ffffff-no-rj" width="100"></li>
+            <li><img src="https://yt3.googleusercontent.com/WFIL7tju3Rq0tqnUNTUuJyopnBKbAL6QyJpOsr9oNmccPGcj4YBYyNrZXr3H3AuSXn4L668t=s176-c-k-c0x00ffffff-no-rj" width="100"></li>
+            <li><img src="https://yt3.googleusercontent.com/ytc/AIf8zZT9wmCs-BA4LuJL676c_mwYm2rTUNCejnlP8519EQ=s176-c-k-c0x00ffffff-no-rj" width="100"></li>
+        </ul>
+    </div>
+
+    <hr>
+
+    <div class="text-center">
+        <h2 class="text-center">
+            ポートフォリオ
+        </h2>
+
+        <p>
+            現在ポートフォリオは制作中につき、以下のリンクから閲覧できます。<br>
+            完成までしばらくお待ちください。<br>
+            <a href="https://drive.google.com/drive/folders/1UlgtWzfGwERjS1WwBu2ePxQEg6-vUjSy?usp=sharing" class="btn btn-success">でんでんのGoogleドライブへ</button></a>
+        </p>
+    </div>
+
+    <hr>
+
+    <div class="text-center">
+        <h2 class="text-center">
+            ご依頼
+        </h2>
+
+        <p>
+            現在有償のみご依頼を承っております。<br>
+            以下のご依頼を承れます。ご相談は無料、お気軽にご連絡ください。<br><br>
+            ———連絡先———<br>
+            mail : 2dedndenden2@gmail.com<br>
+            <a href="https://twitter.com/dendend12345" class="btn btn-secondary">X</button></a>
+        </p>
+    </div>
+
+    <hr>
+
+    <div class="text-center">
+        <h2 class="text-center">
+            SNS
+        </h2>
+
+        <p>
+            動画投稿なども行っているのでぜひぜひ遊びに来てね。
+        </p>
+    </div>
